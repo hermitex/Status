@@ -1,0 +1,159 @@
+:root {
+  --text-dark: #202e3b;
+  --text-grey: #202e3b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Fonts */
+.text-dark,
+i {
+  color: var(--text-grey);
+  font-size: 1rem;
+}
+/* section padding and margin */
+.p-2 {
+  padding: 2rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+/* Button */
+button {
+  justify-content: space-evenly;
+  border: 0.5rem var(--text-dark);
+  width: 1.3rem;
+}
+
+/* Body */
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  line-height: 1.5rem;
+}
+
+/* Container Wrapper */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+/* Images */
+.landing-home {
+  width: 100%;
+  height: 50vh;
+  background-image: url(package_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.first {
+  width: 100%;
+  height: 50vh;
+  background-image: url(headphone-1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second {
+  width: 100%;
+  height: 25vh;
+}
+.third {
+  width: 100%;
+  height: 50vh;
+  background-image: url(woman.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fourth {
+  width: 100%;
+  height: 50vh;
+  background-image: url(man.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+.fifth {
+  width: 100%;
+  height: 50vh;
+  background-image: url(headphone-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sixth {
+  width: 100%;
+  height: 50vh;
+  background-image: url(earphone-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.seventh {
+  width: 100%;
+  height: 50vh;
+  background-image: url(earphone-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.eighth {
+  width: 100%;
+  height: 50vh;
+  background-image: url(earphone-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nignth {
+  width: 100%;
+  height: 50vh;
+  background-image: url(man-and-woman.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tenth {
+  width: 100%;
+  height: 50vh;
+  background-image: url(package_01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.eleventh {
+  width: 100%;
+  height: 50vh;
+  background-image: url(earphone-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Slides */
+section .slide-2,
+section.slide-3 {
+  display: none;
+  height: 0;
+}
